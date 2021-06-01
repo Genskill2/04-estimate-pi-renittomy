@@ -43,9 +43,9 @@ float mc_pi(int n)
 {
   float ret;
   int countin=0;
-  int countout=0
-  float x= float frandom();
-  float y= float frandom();
+  int countout=0;
+  float x=frandom();
+  float y=frandom();
   float dist=sqrt(x*x+y*y);
   if(dist<=1)
     countin++;
