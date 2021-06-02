@@ -54,7 +54,7 @@ float mc_pi(int n)
   else 
     countout++;
   }
-  ret=4*countin/countout;
+  ret=4*countin/n;
   return ret;
  
 } 
